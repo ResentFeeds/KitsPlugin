@@ -1,0 +1,15 @@
+name: KitsPlugin
+version: 1.0
+main: me.SkylerTyler1337.kitsplugin.KitsPlugin
+commands:
+     Warrior:
+      description: Gives you a Warrior kit.
+
+    Archer:
+      description: Gives you a Archer kit.
+
+    Heavy:
+      description: Gives you a Heavy kit.
+
+    kits:
+      description: gives you the list of Kits.
