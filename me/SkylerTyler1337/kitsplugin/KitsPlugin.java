@@ -14,7 +14,7 @@ public class KitsPlugin extends JavaPlugin{
 		 this.getCommand("Kits").setExecutor(new KitsCommand(this));
 		 this.getCommand("Warrior").setExecutor(new WarriorCommand(this));
 		this.getCommand("Archer").setExecutor(new ArcherCommand(this));
-			this.getCommand("Heavy").setExecutor(new HeavyCommand(this));
+	        this.getCommand("Heavy").setExecutor(new HeavyCommand(this));
 	}
 	
 	@Override
