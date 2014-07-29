@@ -11,15 +11,16 @@ public class KitsPlugin extends JavaPlugin{
 	@Override
 	public void onDisable() {
 		 System.out.println("[KitsPlugin] Disabled!");
-		 this.getCommand("Kits").setExecutor(new KitsCommand(this));
-		 this.getCommand("Warrior").setExecutor(new WarriorCommand(this));
-		this.getCommand("Archer").setExecutor(new ArcherCommand(this));
-	        this.getCommand("Heavy").setExecutor(new HeavyCommand(this));
+
 	}
 	
 	@Override
 	public void onEnable() {
 	  System.out.println("[KitsPlugin] Enabled!");
+	  this.getCommand("Kits").setExecutor(new KitsCommand(this));
+	  this.getCommand("Warrior").setExecutor(new WarriorCommand(this));
+	  this.getCommand("Archer").setExecutor(new ArcherCommand(this));
+	  this.getCommand("Heavy").setExecutor(new HeavyCommand(this));
 	}
 
 }
